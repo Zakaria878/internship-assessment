@@ -1,0 +1,56 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --light-grey: #e0e0e0;
+    --dark-grey: #606060;
+    --red-bg: #da1e5d;
+}
+#container{
+    width: 95vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3em;
+    padding: 5px 0px;
+    text-align: center;
+    grid-auto-rows: minmax(70px, auto);
+    color: #e0e0e0;
+    font-size: 10px;
+}
+#nav{
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(8, 3fr);
+    grid-row-gap: 1em;
+    grid-column-gap: .5em;
+    grid-auto-rows: minmax(30px, auto);
+    font-size: 10px;
+    padding: 10px 25px;
+}
+button{
+    background-color: #E0E0E0;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 5px;
+    color: #606060;
+}
+
+#button1{
+    background-color:#606060;
+    border: none;
+    padding: 15px 0px;
+    border-radius: 5px;
+    color: #E0E0E0;
+}
+
+.card{
+    background-color: #da1e5d;
+    text-align: center;
+    border-radius: 5px;
+}
+#container >div >h2{
+    padding: 15px 0px;
+}
